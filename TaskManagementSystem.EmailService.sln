@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.Messaging", "TaskManagementSystem.Messaging\TaskManagementSystem.Messaging.csproj", "{441DEC86-5631-4850-AB48-376ED78C81EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskManagementSystem.EmailService", "TaskManagementSystem.EmailService\TaskManagementSystem.EmailService.csproj", "{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestPublisher", "TestPublisher\TestPublisher.csproj", "{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Debug|x64.Build.0 = Debug|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Debug|x86.Build.0 = Debug|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Release|x64.Build.0 = Release|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Release|x86.ActiveCfg = Release|Any CPU
+		{441DEC86-5631-4850-AB48-376ED78C81EE}.Release|x86.Build.0 = Release|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Debug|x64.Build.0 = Debug|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Debug|x86.Build.0 = Debug|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Release|x64.ActiveCfg = Release|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Release|x64.Build.0 = Release|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Release|x86.ActiveCfg = Release|Any CPU
+		{C2D3B17A-3E62-41C9-AA7C-3A43997D6C89}.Release|x86.Build.0 = Release|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Debug|x64.Build.0 = Debug|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Debug|x86.Build.0 = Debug|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Release|x64.ActiveCfg = Release|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Release|x64.Build.0 = Release|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Release|x86.ActiveCfg = Release|Any CPU
+		{93DD5C9C-91C5-4C05-9EC2-54BF0ED40195}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(StartupProject) = preSolution
+		StartupProject = TaskManagementSystem.EmailService
+	EndGlobalSection
+EndGlobal

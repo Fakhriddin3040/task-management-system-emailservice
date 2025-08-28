@@ -1,0 +1,3 @@
+[submodule "TaskManagementSystem.Messaging"]
+	path = TaskManagementSystem.Messaging
+	url = git@github.com:Fakhriddin3040/task-management-system-messaging.git
