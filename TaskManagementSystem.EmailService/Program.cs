@@ -35,7 +35,7 @@ var host = Host.CreateDefaultBuilder(args)
             factory.HostName = options.Host;
             factory.Port = options.Port;
             factory.VirtualHost = options.VirtualHost;
-            factory.UserName = options.UserName;
+            factory.UserName = options.Username;
             factory.Password = options.Password;
             return factory.CreateConnectionAsync().GetAwaiter().GetResult();
         });
