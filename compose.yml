@@ -1,0 +1,23 @@
+services:
+  tms-email:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    image: tms-emailservice:latest
+    env_file:
+      - TaskManagementSystem.EmailService/.env
+    environment:
+      ASPNETCORE_ENVIRONMENT: "Production"
+      ASPNETCORE_URLS: "http://0.0.0.0:8080"
+      ASPNETCORE_Kestrel__EndpointDefaults__Protocols: "Http2"
+      RabbitMQ__Host: "tms-rabbit"
+    ports:
+      - "50062:8080"
+    restart: unless-stopped
+
+    networks:
+      - tms
+
+networks:
+  tms:
+    external: true

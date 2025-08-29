@@ -19,8 +19,8 @@ var host = Host.CreateDefaultBuilder(args)
     {
         config.AddJsonFile("appsettings.json", optional: false)
             .AddJsonFile($"appsettings.{ctx.HostingEnvironment.EnvironmentName}.json", optional: true)
-            .AddEnvironmentVariables()
-            .AddDotNetEnv();
+            .AddDotNetEnv()
+            .AddEnvironmentVariables();
     })
     .ConfigureServices((ctx, services) =>
     {

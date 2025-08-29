@@ -2,7 +2,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\TaskManagementSystem.Messaging\TaskManagementSystem.Messaging.csproj" />
-    <ProjectReference Include="..\TestPublisher\TestPublisher.csproj" />
   </ItemGroup>
 
   <ItemGroup>
